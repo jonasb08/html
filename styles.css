@@ -7,12 +7,18 @@ body {
 }
 
 h1,
-h2 {
+h2,
+p {
   color: beige;
   text-align: center;
 }
-img {
+
+.flex-box {
   border-radius: 8%;
   width: 20%;
-  padding-right: 10%;
+  margin-inline: auto;
+}
+img {
+  border-radius: 8%;
+  max-width: 100%;
 }
